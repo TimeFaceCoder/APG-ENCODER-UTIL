@@ -1,0 +1,1 @@
+@for /f "delims=" %%i in ('dir /b /a-d /s "*.mp4"') do (@echo ÕıÔÚ¼ÓÃÜ£º%%i && call cook_encryp_rk.exe %%i && del %%i)
